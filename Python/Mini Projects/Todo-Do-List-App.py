@@ -32,6 +32,6 @@ while True:
         index = int(input("Enter task number to delete: "))
         delete_task(index)
     elif choice == '4':
-        break
+        break 
     else:
         print("Invalid choice, try again!")
